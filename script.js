@@ -2,7 +2,7 @@ window.addEventListener('load', () => {
     document.getElementById('roll-button').addEventListener('click', () => {
         generateResult();
     });
-})
+});
 
 function generateResult() {
     const event = pickOne(...wildMagicTable);
