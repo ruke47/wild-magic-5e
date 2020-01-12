@@ -153,7 +153,7 @@ const wildMagicTable = [
         genValues: () => ({})
     },
     {
-        text: `You can’t speak for the next minute. Whenever you try, pink bubbles float out of your mouth.`,
+        text: `You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth.`,
         genValues: () => ({})
     },
     {
@@ -171,7 +171,7 @@ const wildMagicTable = [
         genValues: () => ({})
     },
     {
-        text: `For the next minute, any flammable object you touch that isn’t being worn or carried by another creature bursts into flame.`,
+        text: `For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame.`,
         genValues: () => ({})
     },
     {
@@ -215,7 +215,7 @@ const wildMagicTable = [
         genValues: () => ({})
     },
     {
-        text: `You cast polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell’s duration.`,
+        text: `You cast polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration.`,
         genValues: () => ({})
     },
     {
@@ -241,7 +241,7 @@ const wildMagicTable = [
         genValues: () => ({})
     },
     {
-        text: `You become invisible for the next minute. During that time, other creatures can’t hear you. The invisibility ends if you attack or cast a spell.`,
+        text: `You become invisible for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell.`,
         genValues: () => ({})
     },
     {
