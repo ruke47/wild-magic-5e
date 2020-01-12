@@ -16,7 +16,7 @@ body {
 }
 
 .long-text {
-    text-align: justify;
+    text-align: left;
     padding: 64px;
 }
 
