@@ -27,20 +27,6 @@ function pickOne(...arr) {
     return arr[idx];
 }
 
-function testRoll() {
-    console.log(wildMagicTable[3].genValues());
-    console.log(wildMagicTable[3].genValues());
-    console.log(wildMagicTable[3].genValues());
-}
-
-function testEach() {
-    wildMagicTable.forEach(event => {
-        const vals = event.genValues();
-        const text = event.text;
-        console.log(text);
-    });
-}
-
 const wildMagicTable = [
     {
         text: `Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls.`,
@@ -118,7 +104,7 @@ const wildMagicTable = [
         genValues: () => ({})
     },
     {
-        text: `You become {{years}} {{diffType}}.`,
+        text: `You become {{years}} years {{diffType}}.`,
         genValues: () => ({
             years: roll(1, 10),
             diffType: pickOne("older", "younger")
